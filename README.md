@@ -1,3 +1,3 @@
 # MBA-BDM
 ###### Ezhilan Wilson - 22121128
-###### Tejasvi V - 22121006
+###### Tejasvi B - 22121006
