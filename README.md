@@ -3,9 +3,9 @@
 ###### Tejasvi B - 22121006
 
 
-Domain/Industry: Online Shopping
+**Domain/Industry:** Online Shopping
 
-Entities:
+**Entities:**
 
 1. Customer
 2. Product
@@ -18,7 +18,7 @@ Entities:
 9. Wishlist
 10. Promotion
 
-Attributes:
+**Attributes:**
 
 Customer: name, address, email, phone number, payment information
 Product: name, description, category, price, brand, availability
