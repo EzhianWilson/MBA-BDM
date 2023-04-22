@@ -1,5 +1,5 @@
 # MBA-BDM
-###### Ezhilan Wilson - 22121128
+###### [Ezhilan Wilson - 22121128](https://github.com/EzhianWilson)
 ###### [Tejasvi B - 22121006](https://github.com/tejbasu)
 
 ### **Introduction:**
