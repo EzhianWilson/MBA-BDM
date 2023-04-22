@@ -1,6 +1,6 @@
 # MBA-BDM
 ###### Ezhilan Wilson - 22121128
-###### Tejasvi B - 22121006
+###### [Tejasvi B - 22121006](https://github.com/tejbasu)
 
 
 **Domain/Industry:** Online Shopping
