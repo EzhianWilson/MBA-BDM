@@ -7,16 +7,16 @@ Domain/Industry: Online Shopping
 
 Entities:
 
-Customer
-Product
-Order
-Order Item
-Cart
-Payment
-Shipping
-Review
-Wishlist
-Promotion
+1. Customer
+2. Product
+3. Order
+4. Order Item
+5. Cart
+6. Payment
+7. Shipping
+8. Review
+9. Wishlist
+10. Promotion
 
 Attributes:
 
