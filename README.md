@@ -39,11 +39,12 @@ As a Business Analyst, I have been tasked with planning the database structure f
 ![ER DIAGRAM](https://user-images.githubusercontent.com/126074324/234166650-55ba937e-c04e-4053-9aed-0cfdee67a23d.jpg)
 
 
-#### Here is the Table design of the ER DIAGRAM
+### Here is the Table design of the ER DIAGRAM
 
-TABLE : CUSTOMER
+**TABLE : CUSTOMER**
+
 | NAME          | ADDRESS       | E_MAIL  |PHONE_NO. | PAYMENT_INFO |
 | ------------- |:-------------:| -------:|---------:|-------------:|
-| col 3 is      | right-aligned | $1600   |          |              |
-| col 2 is      | centered      |   $12   |
+|               |               |         |          |              |
+|               |               |         |
 
