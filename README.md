@@ -65,26 +65,18 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : ORDER**
 
-| O_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS |
-| ----- |:-------------:| ---------------:|------------:|
-
+| O_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |
+| ----- |:-------------:| ---------------:|----------------:|
+|23998  |2023-02-21     |450              |Shipped          |
+|98767  |2023-05-30     |599              |Out to Deliver   |
+|34569  |2023-01-28     |999              |Order Conformed  |
+|78656  |2023-03-09     |13,000           |Shipped          |
+|46759  |2023-04-01     |350              |Delivered        |
 
 **TABLE : ORDER_ITEMS**
 
 |OI_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   |
-|----- | --------------------- |:----------------:|
+|------| --------------------- |:----------------:|
 
 **TABLE : CART**
-
-|CART_ID | DATE_CREATED | TOTAL_AMOUNT |
-|------- |--------------|--------------|
-
-
-**TABLE : PAYMENT**
-
-|PAYMENT_ID| PAYMENT_DATE| PAYMENT_METHOD | PAYMENT_AMOUNT |
-|----------|-------------|----------------|----------------|
-
-
-**TABLE : SHIPPING**
 
