@@ -76,3 +76,15 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : CART**
 
+|CART_ID | DATE_CREATED | TOTAL_AMOUNT |
+|------- |--------------|--------------|
+
+
+**TABLE : PAYMENT**
+
+|PAYMENT_ID| PAYMENT_DATE| PAYMENT_METHOD | PAYMENT_AMOUNT |
+|----------|-------------|----------------|----------------|
+
+
+**TABLE : SHIPPING**
+
