@@ -1,0 +1,29 @@
+The goal of this project is to design a database structure for an online shopping domain. The database structure will help ensure that the online shopping experience is seamless for customers by providing a well-designed and efficient database.
+
+To achieve this goal, we have identified ten entities in the domain, which are:
+
+Customer: This entity represents a customer who purchases products from the online store. The customer's information includes their name, address, email, phone number, and payment information.
+
+Product: This entity represents the products that are available for purchase on the online store. The product's information includes its name, description, category, price, brand, and availability.
+
+Order: This entity represents the customer's order of one or more products. The order's information includes the order number, order date, total amount, and status.
+
+Order Item: This entity represents each item in the customer's order. The order item's information includes the quantity and unit price.
+
+Cart: This entity represents the customer's shopping cart, where they can add or remove products before placing their order. The cart's information includes the cart ID, date created, and total amount.
+
+Payment: This entity represents the customer's payment for their order. The payment's information includes the payment ID, payment date, payment method, and amount.
+
+Shipping: This entity represents the shipping of the customer's order to their address. The shipping's information includes the shipping ID, tracking number, shipping date, and address.
+
+Review: This entity represents the customer's review of a product they have purchased. The review's information includes the review ID, product rating, and review text.
+
+Wishlist: This entity represents the customer's list of products they want to purchase in the future. The wishlist's information includes the wishlist ID and date created.
+
+Promotion: This entity represents any discounts or promotions offered to customers. The promotion's information includes the promotion ID, discount percentage, start and end date.
+
+The ER diagram is a visual representation of the relationships between these entities. It shows how the entities are related to each other and the cardinality of those relationships.
+
+We have also created tables for each entity, which provide a more detailed representation of the entity's attributes. The tables show the data type and any constraints on each attribute.
+
+In conclusion, this project has provided a database structure for an online shopping domain, which will help ensure that the online shopping experience is seamless for customers. The database includes ten entities, an ER diagram, and tables for each entity.
