@@ -35,11 +35,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 * **Promotion:** promotion ID, discount percentage, start and end date
 
 
-### ER DIAGRAM - ONLINE SHOPPING
+## ER DIAGRAM - ONLINE SHOPPING
 ![ER DIAGRAM](https://user-images.githubusercontent.com/126074324/234166650-55ba937e-c04e-4053-9aed-0cfdee67a23d.jpg)
 
 
-### Here is the Table design of the ER DIAGRAM
+## TABLE DESIGN FOR ER DIAGRAM
 
 **TABLE : CUSTOMER**
 
