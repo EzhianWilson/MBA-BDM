@@ -55,7 +55,7 @@ As a Business Analyst, I have been tasked with planning the database structure f
 **TABLE : PRODUCT**
 
 |P_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
-|456 | -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
+|----| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
 |860 |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
 |346 |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |
 |246 |Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           |
