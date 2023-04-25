@@ -43,8 +43,10 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : CUSTOMER**
 
-| NAME          | ADDRESS       | E_MAIL  |PHONE_NO. | PAYMENT_INFO |
-| ------------- |:-------------:| -------:|---------:|-------------:|
-|               |               |         |          |              |
-|               |               |         |
-
+| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
+| ------------- |:-------------:| ---------------------:|---------:|-------------:|
+|   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|  COD         |         
+|    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987| Credit Card  |
+|  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           |
+|  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           |
+|  Nandhini     |Tamil Nadu     |Nandus@@gmail.com      |8763043210|Debit Card    |
