@@ -35,6 +35,5 @@ As a Business Analyst, I have been tasked with planning the database structure f
 * **Promotion:** promotion ID, discount percentage, start and end date
 
 
-[**ER DIAGRAM OF ONLINE SHIPPING**](/image/ER DIAGRAM.jpg)
-Inline-style: 
-![alt text](/image/ER DIAGRAM.jpg)
+![ER DIAGRAM](https://user-images.githubusercontent.com/126074324/234166650-55ba937e-c04e-4053-9aed-0cfdee67a23d.jpg)
+
