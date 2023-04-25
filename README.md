@@ -88,11 +88,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |CART_ID| DATE_CREATED |CUSTOMER_ID | TOTAL_AMOUNT |
 |-------|--------------|------------|--------------|
-|786    |2023-02-21    |            |599           |
-|890    |2023-05-02    |            |13,000        |
-|459    |2023-03-06    |            |499           |
-|098    |2023-04-01    |            |350           |
-|466    |2023-04-11    |            |450           |
+|786    |2023-02-21    | 101        |599           |
+|890    |2023-05-02    | 102        |13,000        |
+|459    |2023-03-06    | 103        |499           |
+|098    |2023-04-01    | 104        |350           |
+|466    |2023-04-11    | 105        |450           |
 
 **TABLE : PAYMENT**
 
@@ -118,11 +118,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |REVIEW_ID|CUSTOMER_ID | PRODUCT_RATING | REVIEW_TEXT|
 |---------|----------- |----------------|------------|
-|567896   |            |3.5/5           |GOOD        |
-|676899   |            |3.8/5           |BETTER      |
-|096449   |            |2.0/5           |BAD         |
-|096489   |            |3.6/5           |GOOD        |
-|754280   |            |1.0/5           |WORST       |
+|567896   | 101        |3.5/5           |GOOD        |
+|676899   | 102        |3.8/5           |BETTER      |
+|096449   | 103        |2.0/5           |BAD         |
+|096489   | 104        |3.6/5           |GOOD        |
+|754280   | 104        |1.0/5           |WORST       |
 
 **TABLE : WISHLIST**
 
