@@ -54,13 +54,13 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : PRODUCT**
 
-| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
-| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
-|Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
-|Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |
-|Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           |
-|One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           |
-|Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           |
+|P_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
+|456 | -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
+|860 |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
+|346 |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |
+|246 |Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           |
+|098 |One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           |
+|346 |Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           |
 
 
 **TABLE : ORDER**
@@ -88,35 +88,59 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |CART_ID| DATE_CREATED | TOTAL_AMOUNT |
 |-------|--------------|--------------|
-
+|786    |2023-02-21    |599           |
+|890    |2023-05-02    |13,000        |
+|459    |2023-03-06    |499           |
+|098    |2023-04-01    |350           |
+|466    |2023-04-11    |450           |
 
 **TABLE : PAYMENT**
 
 |PAYMENT_ID| PAYMENT_DATE| PAYMENT_METHOD| PAYMENT_AMOUNT|
 |----------|-------------|---------------|---------------|
-
+|GZF578    |2023-02-21   |UPI            |999            |
+|FA7609    |2023-05-30   |UPI            |13,000         |
+|LK7679    |2023-01-28   |UPI            |599            |
+|AH9098    |2023-03-09   |UPI            |450            |
+|QU7511    |2023-04-01   |UPI            |350            |
 
 **TABLE : SHIPPPING**
 
 |SHIPPING_ID| SHIPPING_DATE | TRACKING_NUMBER | SHIPPING_ADDRESS |
 |-----------|---------------|-----------------|------------------|
-
+|GSA682879  |2023-02-25     |YGHDA56A8790A8765|PUNE              |
+|GSA682879  |2023-06-04     |JKJQHS567889087GD|BHOPAL            |
+|GSA682879  |2023-01-29     |BHDKN637891980914|BENGALURU         |
+|GSA682879  |2023-03-15     |HGSBND09823481DKN|BIHAR             |
+|GSA682879  |2023-04-06     |QIUO89346419DN234|GUJURAT           |
 
 **TAGLE : REVIEW**
 
 |REVIEW_ID| PRODUCT_RATING | REVIEW_TEXT|
 |---------|----------------|------------|
-
+|567896   |3.5/5           |GOOD        |
+|676899   |3.8/5           |BETTER      |
+|096449   |2.0/5           |BAD         |
+|096489   |3.6/5           |GOOD        |
+|754280   |1.0/5           |WORST       |
 
 **TABLE : WISHLIST**
 
 |WISHLIST_ID | DATE_CREATED |
 |------------|--------------|
-
+|HJAH465776  |2023-02-15    |
+|JHDSB09875  |2023-06-01    |
+|OIUHJ98765  |2023-01-24    |
+|IQWUDGH567  |2023-03-10    |
+|WUYGH09861  |2023-04-04    |
 
 **TABLE : PROMOTION**
 
 |PROMOTION_ID | START_DATE | END_DATE | DISCOUNT_PERCENTAGE |
 |-------------|------------|----------|---------------------|
-
+|GB262772     |2021-12-09  |2020-12-12|6%                   |
+|UA456885     |2019-02-21  |2021-07-04|12%                  |
+|QT456895     |2015-03-19  |2019-04-01|3%                   |
+|QG833790     |2019-13-13  |2023-01-04|25%                  |
+|JN987648     |2017-07-01  |2021-02-05|30%                  |
 
