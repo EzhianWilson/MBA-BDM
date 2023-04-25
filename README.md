@@ -56,9 +56,14 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 | NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
 | -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
-|Philips Hairdryer  |
+|Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
+|Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |
+|Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           |
+|One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           |
+|Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           |
 
 
+ 
 **TABLE : ORDER**
 
 | NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
