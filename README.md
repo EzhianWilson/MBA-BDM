@@ -104,4 +104,19 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TAGLE : REVIEW**
 
-|REVIEW_ID| 
+|REVIEW_ID| PRODUCT_RATING | REVIEW_TEXT|
+|---------|----------------|------------|
+
+
+**TABLE : WISHLIST**
+
+|WISHLIST_ID | DATE_CREATED |
+|------------|--------------|
+
+
+**TABLE : PROMOTION**
+
+|PROMOTION_ID | START_DATE | END_DATE | DISCOUNT_PERCENTAGE |
+|-------------|------------|----------|---------------------|
+
+
