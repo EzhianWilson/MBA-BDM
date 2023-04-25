@@ -43,13 +43,13 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : CUSTOMER**
 
-|C_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |ORDER_ID | CART_ID | REVIEW_ID |
-|---:| ------------- |:-------------:| ---------------------:|---------:|-------------:|---------|---------|-----------|
-|101 |   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|  COD         |         |         |           |
-|102 |    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987| Credit Card  |         |         |           |
-|103 |  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           |         |         |           |
-|104 |  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           |         |         |           |
-|105 |  Nandhini     |Tamil Nadu     |Nandus532@gmail.com    |8763043210|Debit Card    |         |         |           |
+|CUSTOMER_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |ORDER_ID | 
+|----------:| ------------- |:-------------:| ---------------------:|---------:|-------------:|---------|
+|101        |   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|COD           |         |                    
+|102        |    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987|Credit Card   |         |                    
+|103        |  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           |         |          
+|104        |  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           |         |                   
+|105        |  Nandhini     |Tamil Nadu     |Nandus532@gmail.com    |8763043210|Debit Card    |         |        
 
 
 **TABLE : PRODUCT**
@@ -65,13 +65,13 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : ORDER**
 
-| O_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |PRODUCT_ID | PAYMENT_ID | SHIPPING_ID | ORDER_ITEMS_ID |
-| ----- |:-------------:| ---------------:|----------------:|-----------|------------|-------------|----------------|
-|23998  |2023-02-21     |450              |Shipped          |           |            |             |                | 
-|98767  |2023-05-30     |599              |Out to Deliver   |           |            |             |                |          
-|34569  |2023-01-28     |999              |Order Conformed  |           |            |             |                | 
-|78656  |2023-03-09     |13,000           |Shipped          |           |            |             |                | 
-|46759  |2023-04-01     |350              |Delivered        |           |            |             |                |
+| ORDER_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |PRODUCT_ID | PAYMENT_ID | SHIPPING_ID | ORDER_ITEMS_ID |
+| --------- |:-------------:| ---------------:|----------------:|-----------|------------|-------------|----------------|
+|23998      |2023-02-21     |450              |Shipped          |           |            |             |                | 
+|98767      |2023-05-30     |599              |Out to Deliver   |           |            |             |                |          
+|34569      |2023-01-28     |999              |Order Conformed  |           |            |             |                | 
+|78656      |2023-03-09     |13,000           |Shipped          |           |            |             |                | 
+|46759      |2023-04-01     |350              |Delivered        |           |            |             |                |
 
 **TABLE : ORDER_ITEMS**
 
@@ -86,13 +86,13 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : CART**
 
-|CART_ID| DATE_CREATED | TOTAL_AMOUNT |
-|-------|--------------|--------------|
-|786    |2023-02-21    |599           |
-|890    |2023-05-02    |13,000        |
-|459    |2023-03-06    |499           |
-|098    |2023-04-01    |350           |
-|466    |2023-04-11    |450           |
+|CART_ID| DATE_CREATED |CUSTOMER_ID | TOTAL_AMOUNT |
+|-------|--------------|------------|--------------|
+|786    |2023-02-21    |            |599           |
+|890    |2023-05-02    |            |13,000        |
+|459    |2023-03-06    |            |499           |
+|098    |2023-04-01    |            |350           |
+|466    |2023-04-11    |            |450           |
 
 **TABLE : PAYMENT**
 
@@ -116,13 +116,13 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TAGLE : REVIEW**
 
-|REVIEW_ID| PRODUCT_RATING | REVIEW_TEXT|
-|---------|----------------|------------|
-|567896   |3.5/5           |GOOD        |
-|676899   |3.8/5           |BETTER      |
-|096449   |2.0/5           |BAD         |
-|096489   |3.6/5           |GOOD        |
-|754280   |1.0/5           |WORST       |
+|REVIEW_ID|CUSTOMER_ID | PRODUCT_RATING | REVIEW_TEXT|
+|---------|----------- |----------------|------------|
+|567896   |            |3.5/5           |GOOD        |
+|676899   |            |3.8/5           |BETTER      |
+|096449   |            |2.0/5           |BAD         |
+|096489   |            |3.6/5           |GOOD        |
+|754280   |            |1.0/5           |WORST       |
 
 **TABLE : WISHLIST**
 
