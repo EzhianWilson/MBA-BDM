@@ -34,3 +34,5 @@ As a Business Analyst, I have been tasked with planning the database structure f
 * **Wishlist:** wishlist ID, date created
 * **Promotion:** promotion ID, discount percentage, start and end date
 
+
+[**ER DIAGRAM OF ONLINE SHIPPING**](/image/ER DIAGRAM.jpg)
