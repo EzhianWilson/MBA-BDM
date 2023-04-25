@@ -72,7 +72,7 @@ As a Business Analyst, I have been tasked with planning the database structure f
 **TABLE : ORDER_ITEMS**
 
 |OI_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   |
-|      | --------------------- |:----------------:|
+|----- | --------------------- |:----------------:|
 
 **TABLE : CART**
 
