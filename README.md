@@ -43,45 +43,45 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : CUSTOMER**
 
-|C_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
-|---:| ------------- |:-------------:| ---------------------:|---------:|-------------:|
-|101 |   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|  COD         |         
-|102 |    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987| Credit Card  |
-|103 |  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           |
-|104 |  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           |
-|105 |  Nandhini     |Tamil Nadu     |Nandus532@gmail.com    |8763043210|Debit Card    |
+|C_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |ORDER_ID | CART_ID | REVIEW_ID |
+|---:| ------------- |:-------------:| ---------------------:|---------:|-------------:|---------|---------|-----------|
+|101 |   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|  COD         |         |         |           |
+|102 |    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987| Credit Card  |         |         |           |
+|103 |  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           |         |         |           |
+|104 |  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           |         |         |           |
+|105 |  Nandhini     |Tamil Nadu     |Nandus532@gmail.com    |8763043210|Debit Card    |         |         |           |
 
 
 **TABLE : PRODUCT**
 
-|P_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
-|----| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
-|860 |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
-|346 |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |
-|246 |Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           |
-|098 |One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           |
-|346 |Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           |
+|P_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |PROMOTION_ID | WISHLIST_ID |
+|----| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|-------------|-------------|
+|860 |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |             |             |
+|346 |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |             |             |
+|246 |Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           |             |             |
+|098 |One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           |             |             |
+|346 |Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           |             |             |
 
 
 **TABLE : ORDER**
 
-| O_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |
-| ----- |:-------------:| ---------------:|----------------:|
-|23998  |2023-02-21     |450              |Shipped          |
-|98767  |2023-05-30     |599              |Out to Deliver   |
-|34569  |2023-01-28     |999              |Order Conformed  |
-|78656  |2023-03-09     |13,000           |Shipped          |
-|46759  |2023-04-01     |350              |Delivered        |
+| O_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |PRODUCT_ID | PAYMENT_ID | SHIPPING_ID | ORDER_ITEMS_ID |
+| ----- |:-------------:| ---------------:|----------------:|-----------|------------|-------------|----------------|
+|23998  |2023-02-21     |450              |Shipped          |           |            |             |                | 
+|98767  |2023-05-30     |599              |Out to Deliver   |           |            |             |                |          
+|34569  |2023-01-28     |999              |Order Conformed  |           |            |             |                | 
+|78656  |2023-03-09     |13,000           |Shipped          |           |            |             |                | 
+|46759  |2023-04-01     |350              |Delivered        |           |            |             |                |
 
 **TABLE : ORDER_ITEMS**
 
-|OI_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   |
-|------| --------------------- |:----------------:|
-|863458|450                    |2                 |
-|783412|350                    |1                 |
-|428679|13,000                 |1                 |
-|897766|599                    |5                 |
-|090865|350                    |8                 |
+|ORDER_ITEMS_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   |
+|---------------| --------------------- |:----------------:|
+|863458         |450                    |2                 |
+|783412         |350                    |1                 |
+|428679         |13,000                 |1                 |
+|897766         |599                    |5                 |
+|090865         |350                    |8                 |
 
 
 **TABLE : CART**
