@@ -63,8 +63,16 @@ As a Business Analyst, I have been tasked with planning the database structure f
 |Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           |
 
 
- 
 **TABLE : ORDER**
 
-| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
-| ------------- |:-------------:| ---------------------:|---------:|-------------:|
+| O_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS |
+| ----- |:-------------:| ---------------:|------------:|
+
+
+**TABLE : ORDER_ITEMS**
+
+|OI_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   |
+|      | --------------------- |:----------------:|
+
+**TABLE : CART**
+
