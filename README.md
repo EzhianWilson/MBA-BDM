@@ -82,5 +82,7 @@ As a Business Analyst, I have been tasked with planning the database structure f
 |428679|13,000                 |1                 |
 |897766|599                    |5                 |
 |090865|350                    |8                 |
+
+
 **TABLE : CART**
 
