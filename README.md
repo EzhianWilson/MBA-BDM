@@ -45,33 +45,33 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |CUSTOMER_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |ORDER_ID | 
 |----------:| ------------- |:-------------:| ---------------------:|---------:|-------------:|---------|
-|101        |   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|COD           |         |                    
-|102        |    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987|Credit Card   |         |                    
-|103        |  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           |         |          
-|104        |  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           |         |                   
-|105        |  Nandhini     |Tamil Nadu     |Nandus532@gmail.com    |8763043210|Debit Card    |         |        
+|101        |   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|COD           | 23998   |                    
+|102        |    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987|Credit Card   | 98767   |                    
+|103        |  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           | 34569   |          
+|104        |  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           | 78656   |                   
+|105        |  Nandhini     |Tamil Nadu     |Nandus532@gmail.com    |8763043210|Debit Card    | 46759   |        
 
 
 **TABLE : PRODUCT**
 
 |P_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |PROMOTION_ID | WISHLIST_ID |
 |----| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|-------------|-------------|
-|860 |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |             |             |
-|346 |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |             |             |
-|246 |Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           |             |             |
-|098 |One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           |             |             |
-|346 |Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           |             |             |
+|860 |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           | GB262772    |HJAH465776   |
+|346 |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           | UA456885    |JHDSB09875   |
+|246 |Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           | QT456895    |OIUHJ98765   |
+|098 |One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           | QG833790    |IQWUDGH567   |
+|346 |Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           | JN987648    | WUYGH09861  |
 
 
 **TABLE : ORDER**
 
 | ORDER_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |PRODUCT_ID | PAYMENT_ID | SHIPPING_ID | ORDER_ITEMS_ID |
 | --------- |:-------------:| ---------------:|----------------:|-----------|------------|-------------|----------------|
-|23998      |2023-02-21     |450              |Shipped          |           |            |             |                | 
-|98767      |2023-05-30     |599              |Out to Deliver   |           |            |             |                |          
-|34569      |2023-01-28     |999              |Order Conformed  |           |            |             |                | 
-|78656      |2023-03-09     |13,000           |Shipped          |           |            |             |                | 
-|46759      |2023-04-01     |350              |Delivered        |           |            |             |                |
+|23998      |2023-02-21     |450              |Shipped          | 860       | GZF578     |GSA682879    | 863458         | 
+|98767      |2023-05-30     |599              |Out to Deliver   | 346       | FA7609     |BKL890879    | 78341          |          
+|34569      |2023-01-28     |999              |Order Conformed  | 246       | LK7679     |WET678979    | 428679         | 
+|78656      |2023-03-09     |13,000           |Shipped          | 098       | AH9098     |HJJ098765    | 897766         | 
+|46759      |2023-04-01     |350              |Delivered        | 346       | QU7511     |ETY986590    | 0909865        |
 
 **TABLE : ORDER_ITEMS**
 
@@ -109,10 +109,10 @@ As a Business Analyst, I have been tasked with planning the database structure f
 |SHIPPING_ID| SHIPPING_DATE | TRACKING_NUMBER | SHIPPING_ADDRESS |
 |-----------|---------------|-----------------|------------------|
 |GSA682879  |2023-02-25     |YGHDA56A8790A8765|PUNE              |
-|GSA682879  |2023-06-04     |JKJQHS567889087GD|BHOPAL            |
-|GSA682879  |2023-01-29     |BHDKN637891980914|BENGALURU         |
-|GSA682879  |2023-03-15     |HGSBND09823481DKN|BIHAR             |
-|GSA682879  |2023-04-06     |QIUO89346419DN234|GUJURAT           |
+|BKL890879  |2023-06-04     |JKJQHS567889087GD|BHOPAL            |
+|WET678979  |2023-01-29     |BHDKN637891980914|BENGALURU         |
+|HJJ098765  |2023-03-15     |HGSBND09823481DKN|BIHAR             |
+|ETY986590 |2023-04-06     |QIUO89346419DN234|GUJURAT           |
 
 **TAGLE : REVIEW**
 
