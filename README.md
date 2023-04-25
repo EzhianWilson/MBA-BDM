@@ -36,3 +36,5 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 
 [**ER DIAGRAM OF ONLINE SHIPPING**](/image/ER DIAGRAM.jpg)
+Inline-style: 
+![alt text](/image/ER DIAGRAM.jpg)
