@@ -57,13 +57,13 @@ As a Business Analyst, I have been tasked with planning the database structure f
 |PRODUCT_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
 |----------| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
 |860       |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
-|346       |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes       |          |
-|246       ||Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes      |           | 
-|098       ||One Plus Nord CE2       | | Phones        |ALL                    |13,000    |One Plus      |Yes           |
-|346       ||Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           | 
+|346       |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |         
+|246       ||Accessories       | Lipstick      |Women                  |350       |MyGlam        |Yes           |          
+|098       ||One Plus Nord CE2 | Phones        |ALL                    |13,000    |One Plus      |Yes           |
+|346       ||Water Bottle      | Brass         |ALL                    |450       |Milton        |Yes           | 
 
 
-**TABLE : ORDER**
+**TABLE : ORDER_TABLE**
 
 | ORDER_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |CUSTOMER_ID| 
 | --------- |:-------------:| ---------------:|----------------:|-----------|
