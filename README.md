@@ -54,13 +54,13 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : PRODUCT**
 
-|P_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
-|----| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
-|860 |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
-|346 |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |
-|246 |Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes           | 
-|098 |One Plus Nord CE2  | Phones        |ALL                    |13,000    |One Plus      |Yes           |
-|346 |Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           | 
+|PRODUCT_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
+|----------| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
+|860       |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
+|346       |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes       |          |
+|246       ||Accessories        | Lipstick      | Women                 |350       |MyGlam        |Yes      |           | 
+|098       ||One Plus Nord CE2       | | Phones        |ALL                    |13,000    |One Plus      |Yes           |
+|346       ||Water Bottle       |Brass          |ALL                    |450       |Milton        |Yes           | 
 
 
 **TABLE : ORDER**
@@ -77,11 +77,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |ORDER_ITEMS_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   | ORDER_ID | PRODUCT_ID |
 |---------------| --------------------- |:----------------:|----------|------------|
-|863458         |450                    |2                 |23998     |
-|783412         |350                    |1                 |98767     |
-|428679         |13,000                 |1                 |34569     |
-|897766         |599                    |5                 |78656     |
-|090865         |350                    |8                 |46759     |
+|863458         |450                    |2                 |23998     |860         |
+|783412         |350                    |1                 |98767     |346         |
+|428679         |13,000                 |1                 |34569     |246         |
+|897766         |599                    |5                 |78656     |098         |
+|090865         |350                    |8                 |46759     |346         |
 
 
 **TABLE : CART**
@@ -98,49 +98,49 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |PAYMENT_ID| PAYMENT_DATE| PAYMENT_METHOD| PAYMENT_AMOUNT| ORDER_ID |
 |----------|-------------|---------------|---------------|----------|
-|GZF578    |2023-02-21   |UPI            |999            |
-|FA7609    |2023-05-30   |UPI            |13,000         |
-|LK7679    |2023-01-28   |UPI            |599            |
-|AH9098    |2023-03-09   |UPI            |450            |
-|QU7511    |2023-04-01   |UPI            |350            |
+|GZF578    |2023-02-21   |UPI            |999            |23998     |
+|FA7609    |2023-05-30   |UPI            |13,000         |98767     |
+|LK7679    |2023-01-28   |UPI            |599            |34569     |
+|AH9098    |2023-03-09   |UPI            |450            |78656     |
+|QU7511    |2023-04-01   |UPI            |350            |46759     |
 
 **TABLE : SHIPPPING**
 
 |SHIPPING_ID| SHIPPING_DATE | TRACKING_NUMBER | SHIPPING_ADDRESS | ORDER_ID |
 |-----------|---------------|-----------------|------------------|----------|
-|GSA682879  |2023-02-25     |YGHDA56A8790A8765|PUNE              |
-|BKL890879  |2023-06-04     |JKJQHS567889087GD|BHOPAL            |
-|WET678979  |2023-01-29     |BHDKN637891980914|BENGALURU         |
-|HJJ098765  |2023-03-15     |HGSBND09823481DKN|BIHAR             |
-|ETY986590  |2023-04-06     |QIUO89346419DN234|GUJURAT           |
+|GSA682879  |2023-02-25     |YGHDA56A8790A8765|PUNE              |23998     |
+|BKL890879  |2023-06-04     |JKJQHS567889087GD|BHOPAL            |98767     |
+|WET678979  |2023-01-29     |BHDKN637891980914|BENGALURU         |34569     |
+|HJJ098765  |2023-03-15     |HGSBND09823481DKN|BIHAR             |78656     |
+|ETY986590  |2023-04-06     |QIUO89346419DN234|GUJURAT           |46759     |
 
 **TAGLE : REVIEW**
 
-|REVIEW_ID|CUSTOMER_ID | PRODUCT_ID |PRODUCT_RATING | REVIEW_TEXT| 
+|REVIEW_ID|CUSTOMER_ID | PRODUCT_ID |PRODUCT_RATING | REVIEW_TEXT | 
 |---------|----------- |------------|----------------|------------|
-|567896   | 101        |            |3.5/5           |GOOD        |
-|676899   | 102        |            |3.8/5           |BETTER      |
-|096449   | 103        |            |2.0/5           |BAD         |
-|096489   | 104        |            |3.6/5           |GOOD        |
-|754280   | 104        |            |1.0/5           |WORST       |
+|567896   | 101        |  860       |3.5/5           |GOOD        |
+|676899   | 102        |  346       |3.8/5           |BETTER      |
+|096449   | 103        |  246       |2.0/5           |BAD         |
+|096489   | 104        |  098       |3.6/5           |GOOD        |
+|754280   | 104        |  346       |1.0/5           |WORST       |
 
 **TABLE : WISHLIST**
 
 |WISHLIST_ID | DATE_CREATED |CUSTOMER_ID |
 |------------|--------------|------------|
-|HJAH465776  |2023-02-15    |
-|JHDSB09875  |2023-06-01    |
-|OIUHJ98765  |2023-01-24    |
-|IQWUDGH567  |2023-03-10    |
-|WUYGH09861  |2023-04-04    |
+|HJAH465776  |2023-02-15    ||101        |
+|JHDSB09875  |2023-06-01    |102         |
+|OIUHJ98765  |2023-01-24    |103         |
+|IQWUDGH567  |2023-03-10    |104         |
+|WUYGH09861  |2023-04-04    |105         |
 
 **TABLE : PROMOTION**
 
 |PROMOTION_ID | START_DATE | END_DATE | DISCOUNT_PERCENTAGE |PRODUCT_ID |
 |-------------|------------|----------|---------------------|-----------|
-|GB262772     |2021-12-09  |2020-12-12|6%                   |
-|UA456885     |2019-02-21  |2021-07-04|12%                  |
-|QT456895     |2015-03-19  |2019-04-01|3%                   |
-|QG833790     |2019-13-13  |2023-01-04|25%                  |
-|JN987648     |2017-07-01  |2021-02-05|30%                  |
+|GB262772     |2021-12-09  |2020-12-12|6%                   | 860       |
+|UA456885     |2019-02-21  |2021-07-04|12%                  | 346       |
+|QT456895     |2015-03-19  |2019-04-01|3%                   | 246       |
+|QG833790     |2019-13-13  |2023-01-04|25%                  | 104       |
+|JN987648     |2017-07-01  |2021-02-05|30%                  | 105       |
 
