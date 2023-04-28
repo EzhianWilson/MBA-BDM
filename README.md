@@ -88,11 +88,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |CART_ID| DATE_CREATED |CUSTOMER_ID | TOTAL_AMOUNT |
 |-------|--------------|------------|--------------|
-|786    |2023-02-21    | 101        |599           |
-|890    |2023-05-02    | 102        |13,000        |
-|459    |2023-03-06    | 103        |499           |
-|098    |2023-04-01    | 104        |350           |
-|466    |2023-04-11    | 105        |450           |
+|CART001|2022-01-01    | 129.99     |CUST001       |
+|CART002|2022-01-02    | 49.99      |CUST003       |
+|CART003|2022-01-03    | 899.99     |CUST005       |
+|CART004|2022-01-04    | 249.99     |CUST002       |
+|CART005|2022-01-05    | 29.99      |CUST007       |
 
 **TABLE : PAYMENT**
 
