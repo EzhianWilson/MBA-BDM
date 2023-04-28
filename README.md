@@ -45,7 +45,7 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |CUSTOMER_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
 |----------:| ------------- |:-------------:| ---------------------:|---------:|-------------:|
-|CUS001     |John Smith'    |123 Main St    |john.smith@email.com   |6775424587|VISA          |                   
+|CUS001     |John Smith     |123 Main St    |john.smith@email.com   |6775424587|VISA          |                   
 |CUS002     |Jane Doe       |456 Oak Ave    |jane.doe@email.com     |9873451290|MASTERCARD    |                 
 |CUS003     |Bob Johnson    |789 Maple Dr   |bob.johnson@email.com  |8760983456|DISCOVER      |
 |CUS004     |Sara Lee       |111 Cherry Ln  |sara.lee@email.com     |9081232309|AMERICAEXPRESS|                    
@@ -98,11 +98,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |PAYMENT_ID| PAYMENT_DATE| PAYMENT_METHOD| PAYMENT_AMOUNT| ORDER_ID |
 |----------|-------------|---------------|---------------|----------|
-|GZF578    |2023-02-21   |UPI            |999            |23998     |
-|FA7609    |2023-05-30   |UPI            |13,000         |98767     |
-|LK7679    |2023-01-28   |UPI            |599            |34569     |
-|AH9098    |2023-03-09   |UPI            |450            |78656     |
-|QU7511    |2023-04-01   |UPI            |350            |46759     |
+|1         |2022-01-15   |Credit Card    | 129.99        |INV001    |
+|2         |2022-01-16   |PayPal         | 49.99         |INV002    |
+|3         |2022-01-17   |Credit Card    | 899.99        |INV003    |
+|4         |2022-01-18   |PayPal         | 249.99        |INV004    |
+|5         |2022-01-19   |Credit Card    | 89.97         |INV005    |
 
 **TABLE : SHIPPPING**
 
