@@ -48,7 +48,6 @@ As a Business Analyst, I have been tasked with planning the database structure f
 |CUS001     |John Smith'    |123 Main St    |john.smith@email.com   |6775424587|VISA          |                   
 |CUS002     |Jane Doe       |456 Oak Ave    |jane.doe@email.com     |9873451290|MASTERCARD    |                 
 |CUS003     |Bob Johnson    |789 Maple Dr   |bob.johnson@email.com  |8760983456|DISCOVER      |
-
 |CUS004     |Sara Lee       |111 Cherry Ln  |sara.lee@email.com     |9081232309|AMERICAEXPRESS|                    
 |CUS005     |David Brown    |222 Pine St    |david.brown@email.com  |8760983412|VISA          |       
 
