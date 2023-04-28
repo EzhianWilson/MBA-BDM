@@ -67,21 +67,21 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 | ORDER_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |CUSTOMER_ID| 
 | --------- |:-------------:| ---------------:|----------------:|-----------|
-|23998      |2023-02-21     |450              |Shipped          |   101     | 
-|98767      |2023-05-30     |599              |Out to Deliver   |   102     |          
-|34569      |2023-01-28     |999              |Order Conformed  |   103     | 
-|78656      |2023-03-09     |13,000           |Shipped          |   104     | 
-|46759      |2023-04-01     |350              |Delivered        |   105     | 
+|INV001     |2022-01-01     | 129.99          |Paid             |CUST001    | 
+|INV002     |2022-01-02     | 49.99           |Paid             |CUST003    |          
+|INV003     |2022-01-03     |899.99           |Paid             |CUST005    | 
+|INV004     |2022-01-04     |249.99           |Pending          |CUST002    | 
+|INV005     |2022-01-05     |29.99            |Paid             |CUST007    | 
 
 **TABLE : ORDER_ITEMS**
 
 |ORDER_ITEMS_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   | ORDER_ID | PRODUCT_ID |
 |---------------| --------------------- |:----------------:|----------|------------|
-|863458         |450                    |2                 |23998     |860         |
-|783412         |350                    |1                 |98767     |346         |
-|428679         |13,000                 |1                 |34569     |246         |
-|897766         |599                    |5                 |78656     |098         |
-|090865         |350                    |8                 |46759     |346         |
+|OI001          | 1                     | 129.99           |INV001    |PROD007     |
+|OI002          | 2                     | 49.99            |INV002    |PROD010     |
+|OI003          | 1                     | 899.99           |INV003    |PROD001     |
+|OI003          |1                      |899.99            |INV003    |PROD001     |
+|OI005          |3                      | 29.99            |INV005    |PROD007     |
 
 
 **TABLE : CART**
