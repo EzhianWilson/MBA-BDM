@@ -57,13 +57,9 @@ As a Business Analyst, I have been tasked with planning the database structure f
 |PRODUCT_ID| NAME          | DESCRIPTION                                             | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
 |----------| ------------- |:--------------------------------------------------:     | ---------------------:|---------:|-------------:|-------------:|
 |PROD001   |Laptop         |Thin and light laptop with long battery life             |Electronics            |899.99    |Dell          | TRUE         |
-
 |PROD002   |Sneakers       |Comfortable sneakers for everyday wear                   |Footwear               | 59.99    |Nike          |TRUE          |  
-
 |PROD003   |Headphones     |Noise-cancelling headphones with high-quality audi       |Electronics            | 249.99   |Bose          | TRUE         |      
-         
 |PROD004   |T-Shirt        |Soft and breathable cotton t-shirt with a simple design  |Apparel                | 19.99    |H&M           | TRUE         |
-
 |PROD005   |Smartwatch     |Smartwatch with fitness tracking and heart rate monitoring|Electronics           |299.99    |Apple         | FALSE        |
 
 
