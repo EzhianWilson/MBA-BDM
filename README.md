@@ -45,22 +45,27 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |CUSTOMER_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
 |----------:| ------------- |:-------------:| ---------------------:|---------:|-------------:|
-|101        |   Souyma      |Bengaluru      |Souyma4@gmail.com      |7865498712|COD           |                   
-|102        |    Karan      |Kochi          |Karankumar9@gmail.com  |9976540987|Credit Card   |                 
-|103        |  Shaun Sabu   |Sikkim         |Sabushaun32@gmail.com  |6578943210|COD           |         
-|104        |  Tara Singh   |Bihar          |Tarasingh67@gmail.com  |8618212489|UPI           |                   
-|105        |  Nandhini     |Tamil Nadu     |Nandus532@gmail.com    |8763043210|Debit Card    |       
+|CUS001     |John Smith'    |123 Main St    |john.smith@email.com   |6775424587|VISA          |                   
+|CUS002     |Jane Doe       |456 Oak Ave    |jane.doe@email.com     |9873451290|MASTERCARD    |                 
+|CUS003     |Bob Johnson    |789 Maple Dr   |bob.johnson@email.com  |8760983456|DISCOVER      |
+
+|CUS004     |Sara Lee       |111 Cherry Ln  |sara.lee@email.com     |9081232309|AMERICAEXPRESS|                    
+|CUS005     |David Brown    |222 Pine St    |david.brown@email.com  |8760983412|VISA          |       
 
 
 **TABLE : PRODUCT**
 
-|PRODUCT_ID| NAME              | DESCRIPTION   | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
-|----------| -------------     |:-------------:| ---------------------:|---------:|-------------:|-------------:|
-|860       |Kurta              | Cotton        |Girls/ Women/Men       |599       |Westside      |Yes           |
-|346       |Shoes              | Sportswear    |Girl/Boys/ Women/Men   |999       |Nike          |Yes           |         
-|246       ||Accessories       | Lipstick      |Women                  |350       |MyGlam        |Yes           |          
-|098       ||One Plus Nord CE2 | Phones        |ALL                    |13,000    |One Plus      |Yes           |
-|346       ||Water Bottle      | Brass         |ALL                    |450       |Milton        |Yes           | 
+|PRODUCT_ID| NAME          | DESCRIPTION                                             | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
+|----------| ------------- |:--------------------------------------------------:     | ---------------------:|---------:|-------------:|-------------:|
+|PROD001   |Laptop         |Thin and light laptop with long battery life             |Electronics            |899.99    |Dell          | TRUE         |
+
+|PROD002   |Sneakers       |Comfortable sneakers for everyday wear                   |Footwear               | 59.99    |Nike          |TRUE          |  
+
+|PROD003   |Headphones     |Noise-cancelling headphones with high-quality audi       |Electronics            | 249.99   |Bose          | TRUE         |      
+         
+|PROD004   |T-Shirt        |Soft and breathable cotton t-shirt with a simple design  |Apparel                | 19.99    |H&M           | TRUE         |
+
+|PROD005   |Smartwatch     |Smartwatch with fitness tracking and heart rate monitoring|Electronics           |299.99    |Apple         | FALSE        |
 
 
 **TABLE : ORDER_TABLE**
