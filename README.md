@@ -80,11 +80,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |ORDER_ITEMS_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   | ORDER_ID | PRODUCT_ID |
 |---------------| --------------------- |:----------------:|----------|------------|
-|OI001          | 1                     | 129.99           |INV001    |PROD007     |
-|OI002          | 2                     | 49.99            |INV002    |PROD010     |
-|OI003          | 1                     | 899.99           |INV003    |PROD001     |
-|OI003          |1                      |899.99            |INV003    |PROD001     |
-|OI005          |3                      | 29.99            |INV005    |PROD007     |
+|OI001          | 129.99                | 1                |INV001    |PROD007     |
+|OI002          | 49.99                 | 2                |INV002    |PROD010     |
+|OI003          | 899.99                | 1                |INV003    |PROD001     |
+|OI003          |899.99                 | 1                |INV003    |PROD001     |
+|OI005          |29.99                  | 3                |INV005    |PROD007     |
 
 
 **TABLE : CART**
