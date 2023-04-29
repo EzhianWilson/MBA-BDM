@@ -21,6 +21,7 @@ SELECT CATEGORY, COUNT(*) AS TOTAL_PRODUCTS
 FROM PRODUCT
 GROUP BY CATEGORY;
 ```
+![image](https://user-images.githubusercontent.com/125994880/235290019-12563b53-46e2-42cc-86f6-4526739ba049.png)
 
 ## **Generate a scatter plot showing the relationship between product price and customer ratings.**
 ```
