@@ -2,9 +2,9 @@
 # PROBLEM STATEMENT 
 
 ## **Display the total sales of each brand in the product table for the year 2022 in a bar graph.**
-
--- SQL QUERY
 ```
+-- SQL QUERY
+
 SELECT BRAND, SUM(QUANTITY * UNIT_PRICE) AS TOTAL_SALES
 FROM PRODUCT
 JOIN ORDER_ITEM ON PRODUCT.PRODUCT_ID = ORDER_ITEM.PRODUCT_ID
@@ -14,26 +14,26 @@ GROUP BY BRAND;
 ```
 
 ## **Generate a bar graph showing the total number of products in each category.**
-
--- SQL QUERY
 ```
+-- SQL QUERY
+
 SELECT CATEGORY, COUNT(*) AS TOTAL_PRODUCTS
 FROM PRODUCT
 GROUP BY CATEGORY;
 ```
 
 ## **Generate a scatter plot showing the relationship between product price and customer ratings.**
-
--- SQL QUERY
 ```
+-- SQL QUERY
+
 SELECT PRODUCT.PRICE, REVIEW.PRODUCT_RATING
 FROM PRODUCT
 JOIN REVIEW ON PRODUCT.PRODUCT_ID = REVIEW.PRODUCT_ID;
 ```
 ## **Retrieve the top 5 most sold products.**
-
--- SQL QUERY
 ```
+-- SQL QUERY
+
 SELECT p.NAME, SUM(o.QUANTITY) AS TOTAL_SOLD
 FROM ORDER_ITEM o
 INNER JOIN PRODUCT p ON o.PRODUCT_ID = p.PRODUCT_ID
@@ -42,9 +42,9 @@ ORDER BY TOTAL_SOLD DESC
 LIMIT 5;
 ```
 ## **Retrieve the name and category of all available products with a price less than $50.**
-
--- SQL QUERY
 ```
+-- SQL QUERY
+
 SELECT NAME, CATEGORY
 FROM PRODUCT
 WHERE AVAILABLE = TRUE AND PRICE < 50.00;
