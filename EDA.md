@@ -43,7 +43,7 @@ JOIN REVIEW ON PRODUCT.PRODUCT_ID = REVIEW.PRODUCT_ID;
 |99.99	|1              |
 |49.99	|5              |
 
- ![image](https://user-images.githubusercontent.com/125994880/235291349-b1769dc9-691b-4d1f-976e-f68a8347759f.png)
+![image](https://user-images.githubusercontent.com/125994880/235291393-bec3465c-b309-47d1-ad07-1d49b2a6c9ef.png)
 
 
 ## **Retrieve the top 5 most sold products.**
