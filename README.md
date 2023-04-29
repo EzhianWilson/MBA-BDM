@@ -131,7 +131,7 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 |WISHLIST_ID | DATE_CREATED |CUSTOMER_ID |
 |------------|--------------|------------|
-|HJAH465776  |2023-02-15    ||101        |
+|HJAH465776  |2023-02-15    | 101        |
 |JHDSB09875  |2023-06-01    |102         |
 |OIUHJ98765  |2023-01-24    |103         |
 |IQWUDGH567  |2023-03-10    |104         |
