@@ -30,6 +30,21 @@ SELECT PRODUCT.PRICE, REVIEW.PRODUCT_RATING
 FROM PRODUCT
 JOIN REVIEW ON PRODUCT.PRODUCT_ID = REVIEW.PRODUCT_ID;
 ```
+|PRICE  |	PRODUCT_RATING|
+|-------|---------------|
+|899.99	|4              |
+|59.99	|3              |
+|249.99	|5              |
+|19.99	|2              |
+|299.99	|4              |
+|79.99	|5              |
+|29.99	|3              |
+|129.99	|4              |
+|99.99	|1              |
+|49.99	|5              |
+
+![image](https://user-images.githubusercontent.com/125994880/235290105-3349967f-b81f-4799-90e2-6f2b22593c96.png)
+
 ## **Retrieve the top 5 most sold products.**
 ```
 -- SQL QUERY
