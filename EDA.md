@@ -110,7 +110,16 @@ SELECT P.NAME, R.PRODUCT_RATING
 FROM PRODUCT P
 JOIN REVIEW R ON P.PRODUCT_ID = R.PRODUCT_ID AND R.PRODUCT_RATING >= 4;
 ```
-![image](https://user-images.githubusercontent.com/126074324/235292106-6833e232-ff5e-4008-a27e-b3d5f09a3cf7.png)
+|NAME	     |PRODUCT_RATING |
+|----|---|
+|Laptop	|4|
+|Headphones	|5|
+|Smartwatch|	4|
+|Backpack	|5|
+|Blender	|4|
+|Jeans	|5|
+
+![image](https://user-images.githubusercontent.com/126074324/235292235-9e8aa46e-dc0b-45b5-b950-9c0b322f467a.png)
 
 
 
