@@ -46,11 +46,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : CUSTOMER**
 
-Customer_ID- Varchar Primarykey= Notnull
-Name- Varchar
-Address - Composite attribute
-Email- Varchar
-Phone_number - Multivarient attribute 
+Customer_ID- Varchar Primarykey= Notnull <br>
+Name- Varchar <br>
+Address - Composite attribute <br>
+Email- Varchar <br>
+Phone_number - Multivarient attribute  <br>
 
 PHONE_NO
 
@@ -65,6 +65,13 @@ PHONE_NO
 
 
 **TABLE : PRODUCT**
+Product_ID - Varchar<br>
+Nmae- Varchar<br>
+Description- Varchar<br>
+Category- Varchar <br>
+Price -Decimal <br>
+Brand - Varchar <br>
+Avaliability - Boolean <br>
 
 |PRODUCT_ID| NAME          | DESCRIPTION                                             | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
 |----------| ------------- |:--------------------------------------------------:     | ---------------------:|---------:|-------------:|-------------:|
@@ -76,7 +83,11 @@ PHONE_NO
 
 
 **TABLE : ORDER_TABLE**
-
+Order_id- Varchar <br>
+Order_Date- Dtae <br>
+TotL_amount - Decimal<br>
+Order_Status - Varchar <br>
+Customer_ID - Varchar<br>
 | ORDER_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |CUSTOMER_ID| 
 | --------- |:-------------:| ---------------:|----------------:|-----------|
 |INV001     |2022-01-01     | 129.99          |Paid             |CUST001    | 
