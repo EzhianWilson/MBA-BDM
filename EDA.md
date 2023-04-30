@@ -35,6 +35,17 @@ SELECT CATEGORY, COUNT(*) AS TOTAL_PRODUCTS
 FROM PRODUCT
 GROUP BY CATEGORY;
 ```
+|CATEGORY	        |TOTAL_PRODUCTS |
+|-----------------|               |
+|Electronics      |4              |
+|Footwear	        |1              |
+|Apparel	        |2              |
+|Bags	            |1              |
+|Athletic Apparel	|1              |
+|Appliances	      |1              |
+
+![image](https://user-images.githubusercontent.com/125994880/235344371-feda80d5-ffb7-48d6-91ce-12c1a5a35163.png)
+
 
 ## **Generate a scatter plot showing the relationship between product price and customer ratings.**
 ```
