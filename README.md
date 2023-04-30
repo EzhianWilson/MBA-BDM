@@ -39,6 +39,8 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 
 ## ER Diagram - ONLINE SHOPPING
+![ER DIAGRA, drawio (1)](https://user-images.githubusercontent.com/125994880/235347923-ec282fd2-329a-45f9-90f0-dd4b9a98c1ea.png)
+
 ![ER DIAGRAM](https://user-images.githubusercontent.com/126074324/234166650-55ba937e-c04e-4053-9aed-0cfdee67a23d.jpg)
 
 
