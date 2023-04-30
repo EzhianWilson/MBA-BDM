@@ -46,6 +46,14 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 **TABLE : CUSTOMER**
 
+Customer_ID- Varchar Primarykey= Notnull
+Name- Varchar
+Address - Composite attribute
+Email- Varchar
+Phone_number - Multivarient attribute 
+
+PHONE_NO
+|Phone number_id|user_id|phone_number|
 |CUSTOMER_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
 |----------:| ------------- |:-------------:| ---------------------:|---------:|-------------:|
 |CUS001     |John Smith     |123 Main St    |john.smith@email.com   |6775424587|VISA          |                   
