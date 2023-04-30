@@ -53,7 +53,8 @@ Email- Varchar
 Phone_number - Multivarient attribute 
 
 PHONE_NO
-|Phone number_id|user_id|phone_number|
+
+|Phonenumber_id|User_id|Phone_number|
 |CUSTOMER_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
 |----------:| ------------- |:-------------:| ---------------------:|---------:|-------------:|
 |CUS001     |John Smith     |123 Main St    |john.smith@email.com   |6775424587|VISA          |                   
