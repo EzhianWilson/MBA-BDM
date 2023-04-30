@@ -65,6 +65,7 @@ PHONE_NO
 
 
 **TABLE : PRODUCT**
+
 Product_ID - Varchar<br>
 Nmae- Varchar<br>
 Description- Varchar<br>
@@ -83,6 +84,7 @@ Avaliability - Boolean <br>
 
 
 **TABLE : ORDER_TABLE**
+
 Order_id- Varchar <br>
 Order_Date- Dtae <br>
 TotL_amount - Decimal<br>
@@ -98,6 +100,11 @@ Customer_ID - Varchar<br>
 
 **TABLE : ORDER_ITEMS**
 
+Order_item_id - Varchar <br>
+Oder_Iten_Unitprice - Decimal <br>
+Order_item_quantity- Integer<br>
+Order_id- Varchar <br>
+Product_id - Varchar <br>
 |ORDER_ITEMS_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   | ORDER_ID | PRODUCT_ID |
 |---------------| --------------------- |:----------------:|----------|------------|
 |OI001          | 129.99                | 1                |INV001    |PROD007     |
@@ -108,6 +115,11 @@ Customer_ID - Varchar<br>
 
 
 **TABLE : CART**
+
+Card_id - Varchar <br>
+Dte_created - Date <br>
+Customer_id- Varchar <br>
+Total_amount - Decimal<br>
 
 |CART_ID| DATE_CREATED |CUSTOMER_ID | TOTAL_AMOUNT |
 |-------|--------------|------------|--------------|
