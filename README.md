@@ -131,6 +131,12 @@ Total_amount - Decimal<br>
 
 **TABLE : PAYMENT**
 
+Payment_Id -Varchar <br> 
+Payment _date - Date <br> 
+Payment_method - Varchar <br> 
+Payment_amount - Decimal <br>
+Order_id- Varchar <br>
+
 |PAYMENT_ID| PAYMENT_DATE| PAYMENT_METHOD| PAYMENT_AMOUNT| ORDER_ID |
 |----------|-------------|---------------|---------------|----------|
 |1         |2022-01-15   |Credit Card    | 129.99        |INV001    |
@@ -140,6 +146,12 @@ Total_amount - Decimal<br>
 |5         |2022-01-19   |Credit Card    | 89.97         |INV005    |
 
 **TABLE : SHIPPPING**
+
+Shipping_ID - Varchar <br>
+Shipping_date - Date <br>
+Tracking_id - Varchar <br>
+Shipping _Address- Varchar <br>
+Order_ID- Varchar
 
 |SHIPPING_ID| SHIPPING_DATE | TRACKING_NUMBER | SHIPPING_ADDRESS | ORDER_ID |
 |-----------|---------------|-----------------|------------------|----------|
@@ -151,6 +163,12 @@ Total_amount - Decimal<br>
 
 **TAGLE : REVIEW**
 
+Review_ID- Varchar<br>
+Customer_ID- Varchar<br>
+Product_ID- Varchar <br>
+Product_Rating - Decimal <br> 
+Review _text - Varchar
+
 |REVIEW_ID|CUSTOMER_ID | PRODUCT_ID |PRODUCT_RATING | REVIEW_TEXT | 
 |---------|----------- |------------|----------------|------------|
 |567896   | 101        |  860       |3.5/5           |GOOD        |
@@ -161,9 +179,13 @@ Total_amount - Decimal<br>
 
 **TABLE : WISHLIST**
 
+Wishlist_ID - Varchar <br>
+Date_created - Date <br> 
+Customer_ID- Varchar 
+
 |WISHLIST_ID | DATE_CREATED |CUSTOMER_ID |
 |------------|--------------|------------|
-|HJAH465776  |2023-02-15    | 101        |
+|HJAH465776  |2023-02-15    |101         |
 |JHDSB09875  |2023-06-01    |102         |
 |OIUHJ98765  |2023-01-24    |103         |
 |IQWUDGH567  |2023-03-10    |104         |
@@ -171,6 +193,11 @@ Total_amount - Decimal<br>
 
 **TABLE : PROMOTION**
 
+Promomtion_ID - Varchar<br>
+Start_date - Date <br> 
+End_Date - Data <br>
+Discount_percentage - Decimal<br>
+Product_ID- Varchar
 |PROMOTION_ID | START_DATE | END_DATE | DISCOUNT_PERCENTAGE |PRODUCT_ID |
 |-------------|------------|----------|---------------------|-----------|
 |GB262772     |2021-12-09  |2020-12-12|6%                   | 860       |
