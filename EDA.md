@@ -1,7 +1,7 @@
 
 # PROBLEM STATEMENT 
 
-## **Display the total sales of each brand in the product table for the year 2022 in a bar graph.**
+## **Display the total sales of each brand in the product table for the year 2022.**
 ```
 -- SQL QUERY
 
@@ -12,8 +12,22 @@ JOIN INVOICE ON ORDER_ITEM.INVOICE_NO = INVOICE.INVOICE_NO
 WHERE YEAR(INVOICE.ORDER_DATEA) = 2022
 GROUP BY BRAND;
 ```
+|BRAND	    |TOTAL_SALES |
+|-----------|------------|
+|Adidas	    |219.96      |
+|Levis	    |99.98       |
+|Dell	      |899.99      |
+|Bose	      |249.99      |
+|Nike	      |59.99       |
+|Apple	    |299.99      |
+|North Face |79.99       |
+|Vitamix	  |259.98      |
+|JBL	      |99.99       |
 
-## **Generate a bar graph showing the total number of products in each category.**
+![image](https://user-images.githubusercontent.com/125994880/235342983-24b6557b-47c3-433c-944d-a3d56dfd64df.png)
+
+
+## **Show the total number of products in each category.**
 ```
 -- SQL QUERY
 
