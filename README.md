@@ -86,7 +86,7 @@ EX:
 EX:
 |ADDRESS_ID| CUSTOMER_ID|  SHIPPING_ID| PLOT_STREET_BUILDING_NO| FIRST_LINE| SECOND_LINE| PINCODE|
 |----------|------------|-------------|------------------------|-----------|------------|--------|
-|   01     |CUST001     | 123         |        Main            |    St     |  600098
+|   01     |CUST001     |             |       123              |  Main     |    St      |  600098|
 <br>
 <br>
 
@@ -101,9 +101,9 @@ EX:
 <pre>AVAILABLE    : BOOLEAN </pre>
 
 EX:
-|PRODUCT_ID| NAME          | DESCRIPTION                                             | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
-|----------| ------------- |:--------------------------------------------------:     | ---------------------:|---------:|-------------:|-------------:|
-|PROD001   |Laptop         |Thin and light laptop with long battery life             |Electronics            |899.99    |Dell          | TRUE         |
+|PRODUCT_ID| NAME          | DESCRIPTION                                          | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
+|----------| ------------- |:--------------------------------------------------:  | ---------------------:|---------:|-------------:|-------------:|
+|PROD001   |Laptop         |Thin and light laptop with long battery life          |Electronics            |899.99    |Dell          | TRUE         |
 
 <br>
 <br>
