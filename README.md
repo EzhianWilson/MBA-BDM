@@ -86,7 +86,7 @@ EX:
 EX:
 |ADDRESS_ID| CUSTOMER_ID|  SHIPPING_ID| PLOT_STREET_BUILDING_NO| FIRST_LINE| SECOND_LINE| PINCODE|
 |----------|------------|-------------|------------------------|-----------|------------|--------|
-
+|   01     |CUST001     | 123         |        Main            |    St     |  600098
 <br>
 <br>
 
