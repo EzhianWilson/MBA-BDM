@@ -52,6 +52,7 @@ NAME        : VARCHAR <br>
 EMAIL       : VARCHAR <br>
 PAYMENT_INFO: VARCHAR <br>
 
+EX:
 |CUSTOMER_ID| NAME          | E_MAIL                |PAYMENT_INFO  |
 |----------:| ------------- | ---------------------:|-------------:|
 ||    |           |   |                   
@@ -60,12 +61,12 @@ PAYMENT_INFO: VARCHAR <br>
 <br>
 
 **TABLE : PHONE_NO** <br>
-EX: <br>
 
 PHONE_NO_ID  : INT PRIMARY KEY <br>
 CUSTOMER_ID  : VARCHAR <br>
 PHONE_NUMBER : VARCHAR <br>
 
+EX:
 |PHONE_NO_ID|CUSTOMER_ID|PHONE_NUMBER|
 |-----------|-----------|------------|
 |        || |
