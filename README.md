@@ -54,7 +54,7 @@ As a Business Analyst, I have been tasked with planning the database structure f
 EX:
 |CUSTOMER_ID| NAME          | E_MAIL                |PAYMENT_INFO  |
 |----------:| ------------- | ---------------------:|-------------:|
-||    |           |   |                   
+|CUST001    |John Smith     |john.smith@email.com   |VISA          |                   
 
 <br>
 <br>
