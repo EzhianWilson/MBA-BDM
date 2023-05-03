@@ -45,12 +45,11 @@ As a Business Analyst, I have been tasked with planning the database structure f
 ## Table design for ER Diagram
 
 **TABLE : CUSTOMER** <br>
-EX: <br>
 
-CUSTOMER_ID : VARCHAR PRIMARY KEY <br>
-NAME        : VARCHAR <br>
-EMAIL       : VARCHAR <br>
-PAYMENT_INFO: VARCHAR <br>
+<pre>CUSTOMER_ID : VARCHAR PRIMARY KEY </pre>
+<pre>NAME        : VARCHAR </pre>
+<pre>EMAIL       : VARCHAR </pre>
+<pre>PAYMENT_INFO: VARCHAR </pre>
 
 EX:
 |CUSTOMER_ID| NAME          | E_MAIL                |PAYMENT_INFO  |
@@ -62,9 +61,9 @@ EX:
 
 **TABLE : PHONE_NO** <br>
 
-PHONE_NO_ID  : INT PRIMARY KEY <br>
-CUSTOMER_ID  : VARCHAR <br>
-PHONE_NUMBER : VARCHAR <br>
+<pre>PHONE_NO_ID  : INT PRIMARY KEY </pre>
+<pre>CUSTOMER_ID  : VARCHAR </pre>
+<pre>PHONE_NUMBER : VARCHAR </pre>
 
 EX:
 |PHONE_NO_ID|CUSTOMER_ID|PHONE_NUMBER|
@@ -76,30 +75,30 @@ EX:
 
 **TABLE : ADDRESS**
 
-ADDRESS_ID                : INT PRIMARY KEY <br>
-CUSTOMER_ID               : VARCHAR FOREIGN KEY <br>
-SHIPPING_ID               : VARCHAR FOREIGN KEY <br>
-PLOT_STREET_BUILDING_NO   : VARCHAR <br>
-FIRST_LINE                : VARCHAR <br>
-SECOND_LINE               : VARCHAR <br>
-PINCODE                   : VARCHAR <br>
+<pre>ADDRESS_ID                : INT PRIMARY KEY </pre>
+<pre>CUSTOMER_ID               : VARCHAR FOREIGN KEY </pre>
+<pre>SHIPPING_ID               : VARCHAR FOREIGN KEY </pre>
+<pre>PLOT_STREET_BUILDING_NO   : VARCHAR </pre>
+<pre>FIRST_LINE                : VARCHAR </pre>
+<pre>SECOND_LINE               : VARCHAR </pre>
+<pre>PINCODE                   : VARCHAR </pre>
 
 EX:
 |ADDRESS_ID| CUSTOMER_ID|  SHIPPING_ID| PLOT_STREET_BUILDING_NO| FIRST_LINE| SECOND_LINE| PINCODE|
-|           |       |         |         |         |          |        |
+|----------|------------|-------------|------------------------|-----------|------------|--------|
 
 <br>
 <br>
 
 **TABLE : PRODUCT**
 
-PRODUCT_ID   : VARCHAR PRIMARY KEY <br>
-NAME         : VARCHAR <br>
-DESCRIPTION  : TEXT <br>
-CATEGORY     : VARCHAR <br>
-PRICE        : DECIMAL <br>
-BRAND        : VARCHAR <br>
-AVAILABLE    : BOOLEAN <br>
+<pre>PRODUCT_ID   : VARCHAR PRIMARY KEY </pre>
+<pre>NAME         : VARCHAR </pre>
+<pre>DESCRIPTION  : TEXT </pre>
+<pre>CATEGORY     : VARCHAR </pre>
+<pre>PRICE        : DECIMAL </pre>
+<pre>BRAND        : VARCHAR </pre>
+<pre>AVAILABLE    : BOOLEAN </pre>
 
 EX:
 |PRODUCT_ID| NAME          | DESCRIPTION                                             | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
@@ -111,11 +110,11 @@ EX:
 
 **TABLE : INVOICE**
 
-INVOICE_NO    : VARCHAR PRIMARY KEY <br>
-ORDER_DATE    : DATE <br>
-TOTAL_AMT     : DECIMAL <br>
-STATUS        : VARCHAR <br>
-CUSTOMER_ID   : VARCHAR FOREIGN KEY <br>
+<pre>INVOICE_NO    : VARCHAR PRIMARY KEY </pre>
+<pre>ORDER_DATE    : DATE </pre>
+<pre>TOTAL_AMT     : DECIMAL </pre>
+<pre>STATUS        : VARCHAR </pre>
+<pre>CUSTOMER_ID   : VARCHAR FOREIGN KEY </pre>
 
 EX:
 | ORDER_ID  | ORDER_DATE    | TOTAL AMOUNT    |ORDER_STATUS     |CUSTOMER_ID| 
@@ -128,11 +127,11 @@ EX:
 
 **TABLE : ORDER_ITEMS**
 
-ORDER_ITEM_ID : VARCHAR PRIMARY KEY <br>
-QUANTITY      : INT <br>
-UNIT_PRICE    : DECIMAL <br>
-INVOICE_NO    : VARCHAR FOREIGN KEY <br>
-PRODUCT_ID    : VARCHAR FOREIGN KEY <br>
+<pre>ORDER_ITEM_ID : VARCHAR PRIMARY KEY </pre>
+<pre>QUANTITY      : INT </pre>
+<pre>UNIT_PRICE    : DECIMAL </pre>
+<pre>INVOICE_NO    : VARCHAR FOREIGN KEY </pre>
+<pre>PRODUCT_ID    : VARCHAR FOREIGN KEY </pre>
 
 EX:
 |ORDER_ITEMS_ID | ORDER_ITEM-UNITPRICE  | ORDER_ITEM_QTY   | ORDER_ID | PRODUCT_ID |
@@ -144,10 +143,10 @@ EX:
 
 **TABLE : CART**
 
-CART_ID       : VARCHAR PRIMARY KEY <br>
-DATE_CREATED  : DATE <br>
-TOTAL_AMT     : DECIMAL <br>
-CUSTOMER_ID   : VARCHAR FOREIGN KEY <br>
+<pre>CART_ID       : VARCHAR PRIMARY KEY </pre>
+<pre>DATE_CREATED  : DATE </pre>
+<pre>TOTAL_AMT     : DECIMAL </pre>
+<pre>CUSTOMER_ID   : VARCHAR FOREIGN KEY </pre>
 
 EX:
 |CART_ID| DATE_CREATED |CUSTOMER_ID | TOTAL_AMOUNT |
@@ -159,11 +158,11 @@ EX:
 
 **TABLE : PAYMENT**
 
-PAYMENT_ID     : INT PRIMARY KEY <br> 
-PAYMENT_DATE   : DATE <br> 
-PAYMENT_METHOD : VARCHAR <br> 
-AMOUNT         : DECIMAL <br>
-INVOICE_NO     : VARCHAR <br>
+<pre>PAYMENT_ID     : INT PRIMARY KEY </pre>
+<pre>PAYMENT_DATE   : DATE </pre>
+<pre>PAYMENT_METHOD : VARCHAR </pre>
+<pre>AMOUNT         : DECIMAL </pre>
+<pre>INVOICE_NO     : VARCHAR </pre>
 
 EX:
 |PAYMENT_ID| PAYMENT_DATE| PAYMENT_METHOD| PAYMENT_AMOUNT| ORDER_ID |
@@ -175,10 +174,10 @@ EX:
 
 **TABLE : SHIPPPING**
 
-SHIPPING_ID   : VARCHAR PRIMARY KEY <br>
-TRACKING_NUM  : VARCHAR <br>
-SHIPPING_DATE : DATE <br>
-INVOICE_NO    : VARCHAR FOREIGN KEY <br>
+<pre>SHIPPING_ID   : VARCHAR PRIMARY KEY </pre>
+<pre>TRACKING_NUM  : VARCHAR </pre>
+<pre>SHIPPING_DATE : DATE </pre>
+<pre>INVOICE_NO    : VARCHAR FOREIGN KEY </pre>
 
 EX:
 |SHIPPING_ID| SHIPPING_DATE | TRACKING_NUMBER | SHIPPING_ADDRESS | ORDER_ID |
@@ -190,10 +189,10 @@ EX:
 
 **TAGLE : REVIEW**
 
-REVIEW_ID INT : PRIMARY KEY <br>
-REVIEW_TEXT   : TEXT <br>
-CUSTOMER_ID   : VARCHAR FOREIGN KEY <br>
-PRODUCT_ID    : VARCHAR FOREIGN KEY <br>
+<pre>REVIEW_ID INT : PRIMARY KEY </pre>
+<pre>REVIEW_TEXT   : TEXT </pre>
+<pre>CUSTOMER_ID   : VARCHAR FOREIGN KEY </pre>
+<pre>PRODUCT_ID    : VARCHAR FOREIGN KEY </pre>
 
 EX:
 |REVIEW_ID|CUSTOMER_ID | PRODUCT_ID |PRODUCT_RATING | REVIEW_TEXT | 
@@ -205,9 +204,9 @@ EX:
 
 **TABLE : WISHLIST**
 
-WISHLIST_ID   : INT PRIMARY KEY <br>
-DATE_CREATED  : DATE <br> 
-CUSTOMER_ID   : VARCHAR FOREIGN KEY <br> 
+<pre>WISHLIST_ID   : INT PRIMARY KEY </pre>
+<pre>DATE_CREATED  : DATE </pre>
+<pre>CUSTOMER_ID   : VARCHAR FOREIGN KEY </pre>
 
 EX:
 |WISHLIST_ID | DATE_CREATED |CUSTOMER_ID |
@@ -219,11 +218,11 @@ EX:
 
 **TABLE : PROMOTION**
 
-PROMOTION_ID        : INT PRIMARY KEY <br>
-DISCOUNT_PERCENTAGE : DECIMAL <br>
-START_DATE          : DATE <br>
-END_DATE            : DATE <br>
-PRODUCT_ID          : VARCHAR FOREIGN KEY <br>
+<pre>PROMOTION_ID        : INT PRIMARY KEY </pre>
+<pre>DISCOUNT_PERCENTAGE : DECIMAL </pre>
+<pre>START_DATE          : DATE </pre>
+<pre>END_DATE            : DATE </pre>
+<pre>PRODUCT_ID          : VARCHAR FOREIGN KEY </pre>
 
 EX:
 |PROMOTION_ID | START_DATE | END_DATE | DISCOUNT_PERCENTAGE |PRODUCT_ID |
