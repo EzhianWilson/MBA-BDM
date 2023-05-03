@@ -45,43 +45,52 @@ As a Business Analyst, I have been tasked with planning the database structure f
 ## Table design for ER Diagram
 
 **TABLE : CUSTOMER**
+EX:
+|CUSTOMER_ID| NAME          | E_MAIL                |PAYMENT_INFO  |
+|----------:| ------------- | ---------------------:|-------------:|
+||    |           |   |                   
 
-Customer_ID- Varchar Primarykey= Notnull <br>
-Name- Varchar <br>
-Address - Composite attribute <br>
-Email- Varchar <br>
-Phone_number - Multivarient attribute  <br>
+CUSTOMER_ID : VARCHAR PRIMARY KEY <br>
+NAME        : VARCHAR <br>
+EMAIL       : VARCHAR <br>
+PAYMENT_INFO: VARCHAR <br>
 
-PHONE_NO
+**TABLE : PHONE_NO**
+EX:
+|PHONE_NO_ID|CUSTOMER_ID|PHONE_NUMBER|
+|-----------|-----------|------------|
+|        || |
 
-|Phonenumber_id|User_id|Phone_number|
-|CUSTOMER_ID| NAME          | ADDRESS       | E_MAIL                |PHONE_NO. | PAYMENT_INFO |
-|----------:| ------------- |:-------------:| ---------------------:|---------:|-------------:|
-|CUS001     |John Smith     |123 Main St    |john.smith@email.com   |6775424587|VISA          |                   
-|CUS002     |Jane Doe       |456 Oak Ave    |jane.doe@email.com     |9873451290|MASTERCARD    |                 
-|CUS003     |Bob Johnson    |789 Maple Dr   |bob.johnson@email.com  |8760983456|DISCOVER      |
-|CUS004     |Sara Lee       |111 Cherry Ln  |sara.lee@email.com     |9081232309|AMERICAEXPRESS|                    
-|CUS005     |David Brown    |222 Pine St    |david.brown@email.com  |8760983412|VISA          |       
+PHONE_NO_ID  : INT PRIMARY KEY <br>
+CUSTOMER_ID  : VARCHAR <br>
+PHONE_NUMBER : VARCHAR <br>
 
+**TABLE : ADDRESS**
+EX:
+|ADDRESS_ID| CUSTOMER_ID|  SHIPPING_ID| PLOT_STREET_BUILDING_NO| FIRST_LINE| SECOND_LINE| PINCODE|
+| | | | | | | |
+
+ADDRESS_ID                : INT PRIMARY KEY <br>
+CUSTOMER_ID               : VARCHAR FOREIGN KEY <br>
+SHIPPING_ID               : VARCHAR FOREIGN KEY <br>
+PLOT_STREET_BUILDING_NO   : VARCHAR <br>
+FIRST_LINE                : VARCHAR <br>
+SECOND_LINE               : VARCHAR <br>
+PINCODE                   : VARCHAR <br>
 
 **TABLE : PRODUCT**
-
-Product_ID - Varchar<br>
-Nmae- Varchar<br>
-Description- Varchar<br>
-Category- Varchar <br>
-Price -Decimal <br>
-Brand - Varchar <br>
-Avaliability - Boolean <br>
-
+EX:
 |PRODUCT_ID| NAME          | DESCRIPTION                                             | CATEGORY              |PRICE     | BRAND        | AVAILABILITY |
 |----------| ------------- |:--------------------------------------------------:     | ---------------------:|---------:|-------------:|-------------:|
 |PROD001   |Laptop         |Thin and light laptop with long battery life             |Electronics            |899.99    |Dell          | TRUE         |
-|PROD002   |Sneakers       |Comfortable sneakers for everyday wear                   |Footwear               | 59.99    |Nike          |TRUE          |  
-|PROD003   |Headphones     |Noise-cancelling headphones with high-quality audi       |Electronics            | 249.99   |Bose          | TRUE         |      
-|PROD004   |T-Shirt        |Soft and breathable cotton t-shirt with a simple design  |Apparel                | 19.99    |H&M           | TRUE         |
-|PROD005   |Smartwatch     |Smartwatch with fitness tracking and heart rate monitoring|Electronics           |299.99    |Apple         | FALSE        |
 
+PRODUCT_ID   : VARCHAR
+NAME         : VARCHAR
+DESCRIPTION  : TEXT
+CATEGORY     : VARCHAR
+PRICE        :
+BRAND        : VARCHAR
+AVAILABLE    :
 
 **TABLE : ORDER_TABLE**
 
