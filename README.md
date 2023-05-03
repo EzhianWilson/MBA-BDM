@@ -68,7 +68,7 @@ EX:
 EX:
 |PHONE_NO_ID|CUSTOMER_ID|PHONE_NUMBER|
 |-----------|-----------|------------|
-|        || |
+| 01        |CUST001    |6775424587  |
 
 <br>
 <br>
