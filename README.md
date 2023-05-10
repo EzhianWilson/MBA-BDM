@@ -26,7 +26,7 @@ As a Business Analyst, I have been tasked with planning the database structure f
 
 1. Customer
 2. Product
-3. Order
+3. Invoice
 4. Order Item
 5. Cart
 6. Payment
