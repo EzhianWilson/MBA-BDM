@@ -198,7 +198,7 @@ JOIN REVIEW R ON P.PRODUCT_ID = R.PRODUCT_ID AND R.PRODUCT_RATING >= 4;
 |Blender	|4|
 |Jeans	|5|
 
-![image](https://user-images.githubusercontent.com/126074324/235292235-9e8aa46e-dc0b-45b5-b950-9c0b322f467a.png)
+![image](https://github.com/EzhilanWilson/MBA-BDM/assets/125994880/2ce14f30-06cb-4ec3-930c-e5c681428370)
 
 
 
